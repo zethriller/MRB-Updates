@@ -35,6 +35,7 @@ Unofficial Mids' Reborn updates
   Note: Rounding errors may cause small inaccuracies at some values.  
   Note: Paragon used the same formula as SR's passives but at a higher starting HP value. Game description states it gives slope resistance to all damage types, but like SR's passives does not actually include Psionic or Toxic resistance.  
   Foresight resistance begins building at 75% Max HP, reaching 32.25% at 0% Max HP.
+  * Added scaling for Follow Up (1 to 4 stacks)
 
 
 2.6.0.7a (01/14/2020)
