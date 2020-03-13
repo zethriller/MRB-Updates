@@ -2,12 +2,12 @@
 Unofficial Mids' Reborn updates
 
 @Zed (Discord: Zed#7901)  
-@Felis Noctu (Discord: Feles Noctis#9086)
+@Felis Noctu (Discord: Feles Noctis#9086)  
 @Procat (Discord: Procat#3599)
 
 ---
 
-2.6.0.7b (WIP - 03/04/2020)  
+2.6.0.7b (WIP - 03/14/2020)  
 * IO Sets  
   * Added Synapse's Shock, Power Transfer, Preemptive Optimization (EndMod), Bombardment, Shrapnel (RangedAOE). Up-to-date as of I26p5 build 3.
 * Pools
