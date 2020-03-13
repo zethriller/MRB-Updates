@@ -3,6 +3,7 @@ Unofficial Mids' Reborn updates
 
 @Zed (Discord: Zed#7901)  
 @Felis Noctu (Discord: Feles Noctis#9086)
+@Procat (Discord: Procat#3599)
 
 ---
 
