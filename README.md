@@ -16,7 +16,8 @@ Metalios (Discord: Metalios#2673)
   Note: values may be off, they differ depending on the AT.  
   Adjustments may be needed.
   * Sorcery, Force of Will and Experimentation are now mutually exclusive.  
-  In addition to a visual clue, there is a note about it in the powersets' description.
+  In addition to a visual clue, there is a note about it in the powersets' description.  
+  KNOWN ISSUE: We are now aware that exclusivity is not complete and are returning to this.
 
 * Brute/Scrapper/Sentinel/Stalker/Tanker
   * Implemented scaling values for Super Reflexes passives' damage resistance slope.  
