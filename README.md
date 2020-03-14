@@ -8,7 +8,7 @@ Metalios (Discord: Metalios#2673)
 
 ---
 
-2.6.0.7b (WIP - 03/14/2020)  
+2.6.0.7 I26P4 (WIP as of 03/14/2020)  
 * IO Sets  
   * Added Synapse's Shock, Power Transfer, Preemptive Optimization (EndMod), Bombardment, Artillery (RangedAOE). Up-to-date as of I26p5 build 3.
 * Pools
@@ -45,7 +45,7 @@ Metalios (Discord: Metalios#2673)
   * Added scaling for Follow Up (1 to 4 stacks)
 
 
-2.6.0.7a (01/14/2020)
+2.6.0.7 I26P3 (01/14/2020)
 * Corruptor
   * Adjusted all primary specs values, except for snipe powers (no info on these)
   * Adjusted damage and effects values for Storm Summonning
