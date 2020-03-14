@@ -25,6 +25,10 @@ Metalios (Discord: Metalios#2673)
   Brute, Scrapper, and Tanker resistance begins building at 60% Max HP, reaching 20% res/passive at 0% Max HP.  
   Sentinel/Stalker resistance begins building at 60% Max HP, reaching 25% res/passive at 0% Max HP.
 
+* Blaster
+  * Atomic Manipulation > Beta Decay:  
+  → Recharge bonus now correctly scales 10+0% at 0 stacks to 10+25% at 10 stacks.
+
 * Defender
   * Added Electrical Affinity (formerly known as Shock Therapy), new primary powerset.  
   Note: Mids does not currently appear to be able to display Targeted Absorbs, so Insulating Circuit will show as (Self).
