@@ -17,7 +17,7 @@ Metalios (Discord: Metalios#2673)
   Adjustments may be needed.
   * Sorcery, Force of Will and Experimentation are now mutually exclusive.  
   In addition to a visual clue, there is a note about it in the powersets' description.  
-  KNOWN ISSUE: We are now aware that exclusivity is not complete and are returning to this.
+  ⦁	KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets.
 
 * Brute/Scrapper/Sentinel/Stalker/Tanker
   * Implemented scaling values for Super Reflexes passives' damage resistance slope.  
