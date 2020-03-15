@@ -11,13 +11,14 @@ Metalios (Discord: Metalios#2673)
 2.6.0.7 I26P4 (WIP as of 03/14/2020)  
 * IO Sets  
   * Added Synapse's Shock, Power Transfer, Preemptive Optimization (EndMod), Bombardment, Artillery (RangedAOE). Up-to-date as of I26p5 build 3.
+
 * Pools
-  * Added Experimentation power pool, fixed powerset icon.  
-  Note: values may be off, they differ depending on the AT.  
-  Adjustments may be needed.
+  * Added Experimentation power pool, fixed powerset icon.
+  * Fixed Experimentation scales and modifiers, so it should have variance among ATs.
+  * Fixed Experimentation.Corrosive_Vial: Damage are done through a pseudo-pet instead of direct damage.
   * Sorcery, Force of Will and Experimentation are now mutually exclusive.  
   In addition to a visual clue, there is a note about it in the powersets' description.  
-  ⦁	KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets.
+  KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets.
 
 * Brute/Scrapper/Sentinel/Stalker/Tanker
   * Implemented scaling values for Super Reflexes passives' damage resistance slope.  
