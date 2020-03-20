@@ -11,6 +11,7 @@ Metalios (Discord: Metalios#2673)
 2.6.0.7 I26P4 (WIP as of 03/14/2020)  
 * IO Sets  
   * Added Synapse's Shock, Power Transfer, Preemptive Optimization (EndMod), Bombardment, Artillery (RangedAOE). Up-to-date as of I26p5 build 3.
+  * Cleaned up Sudden Acceleration: Knockback to Knockdown effects. This set will now only affect the power it is on (same as in-game).
 
 * Pools
   * Added Experimentation power pool, fixed powerset icon.
