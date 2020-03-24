@@ -28,7 +28,7 @@ _(as of 2020-03-23)_
 
 ## __MRBU Features__
 ### Database Version Number
-* As of this Issue/Page number, the Mids database version is going to be formatted to match the date of the last update, in order to make comparing versions at a glance easier for both devs and players.
+* As of this Issue/Page number, the Mids database version is going to be formatted to match the year and matching Homecoming Issue/Page number of the last update, in order to make comparing versions at a glance easier for both devs and players.
   * __Year:__ 2020  
   __HC Vers:__ Issue 26, Page 4  
   __DB Date:__ 23/03/2020  
