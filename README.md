@@ -13,6 +13,14 @@ Metalios (Discord: Metalios#2673)
 ---
 
 # Install Instructions
+### Weekly Update
+* Go to MRBU [Releases](https://github.com/zethriller/MRB-Updates/releases)
+* Click __"Source code (zip)"__ under __"Assets"__ section of most recent Weekly
+* Open downloaded file
+* Extract contents of __"MRB-Updates-######"__ to Mids install folder, overwriting as prompted
+  * _For a clean install, only extract the __"Data"__ and __"Images"__ folders_
+
+### Cutting Edge
 * Above right, find and click the green button labeled __"Clone or Download"__
 * Click __"Download ZIP"__
 * Open downloaded file
