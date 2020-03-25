@@ -127,6 +127,7 @@ _(as of 2020-03-23)_
   _NOTE: Game description states it gives slope resistance to all damage types, but like SR's passives Foresight does not actually include Psionic or Toxic resistance._
 
 ### Pools
+* Moved Cross Punch to the bottom of the list to avoid confusion. One could pretend it required only one power.  
 * Pools > Force of Will > Weaken Resolve: Reenabled slotting of Accurate ToHit Debuff enhancement sets as per in-game Manage Slots UI.  
   → NOTE: If these IO sets cannot actually be slotted in-game, the Homecoming dev team should be informed.
 * Sorcery and Force of Will are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
