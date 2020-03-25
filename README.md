@@ -43,7 +43,7 @@ _(as of 2020-03-23)_
   __DB Vers:__ 20.2604
 
 ### Homecoming Beta Server Previews
-* We’re in the process of adding Beta-specific content and changes to Mids’ to allow for analysis and number crunching of Homecoming’s beta changes. These sets may be found by looking for anything beginning with “z_”, which in the case of powersets will push them to the bottom of their respective lists.
+* We’re in the process of adding Beta-specific content and changes to Mids’ to allow for analysis and number crunching of Homecoming’s beta changes. These sets may be found by looking for anything beginning with “zn_” (new) or “zc_” (changed), which in the case of powersets will push them to the bottom of their respective lists.
 * As the beta server is changing much more frequently than on live, and the beta BIN files are currently difficult to parse to extract raw data, this added content may not always be 100% accurate. We’ll do our best to get them as close as we can!
 
 ## __General Archetype Updates__
@@ -127,8 +127,9 @@ _(as of 2020-03-23)_
   _NOTE: Game description states it gives slope resistance to all damage types, but like SR's passives Foresight does not actually include Psionic or Toxic resistance._
 
 ### Pools
-* Sorcery and Force of Will are now mutually exclusive. In addition to a visual clue, there is a
-  note about it in the powersets' descriptions.  
+* Pools > Force of Will > Weaken Resolve: Reenabled slotting of Accurate ToHit Debuff enhancement sets as per in-game Manage Slots UI.  
+  → NOTE: If these IO sets cannot actually be slotted in-game, the Homecoming dev team should be informed.
+* Sorcery and Force of Will are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
   _→ KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets._
 
 ### Incarnates
@@ -141,13 +142,13 @@ _(as of 2020-03-23)_
 
 ## __Powers (HC beta)__
 ### New Support Powerset: Electrical Affinity
-* __Label:__ z_Electrical Affinity  
+* __Label:__ zn_Electrical Affinity  
   _Up to date as of I26p5 Build 4_
 * Currently only implemented for Defenders  
   _→ KNOWN ISSUE: Mids does not currently appear to be able to display Targeted Absorbs, so Insulating Circuit will show as (Self)._
 
 ### New Origin Power Pool: Experimentation
-* __Label:__ z_Experimentation  
+* __Label:__ zn_Experimentation  
   _Up to date as of I26p5 Build 4_
 * Added powerset icon
 * Added scales and modifiers so it has variance among ATs
@@ -155,7 +156,7 @@ _(as of 2020-03-23)_
   * Effects now use pseudo-pet
 
 ### Power Updates & Fixes
-* The following Leadership _(z_Leadership)_ powers have had their activation time reduced from 3.63 seconds to 1.5 seconds
+* The following Leadership _(zc_Leadership)_ powers have had their activation time reduced from 3.63 seconds to 1.5 seconds
   * Pools > Leadership > Maneuvers
   * Pools > Leadership > Assault
   * Pools > Leadership > Tactics
@@ -166,12 +167,14 @@ _(as of 2020-03-23)_
   _→ KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets._
 
 ### IO Sets
-* NEW (up to date as of I26p5 Build 3)
+* NEW
   * Artillery (Targeted AoE, Rare, 30-50)
   * Bombardment (Targeted AoE, Rare, 30-50)
   * Preemptive Optimization (Endurance Modification, Uncommon, 21-50)
   * Power Transfer (Endurance Modification, Rare, 21-50)
   * Synapse’s Shock (Endurance Modification, Rare, 21-50)
+* Artillery set icon updated
+* Power Transfer: Chance to Heal Self no longer marked as Unique
 
 ## __To-Do__
 ### General
@@ -179,8 +182,6 @@ _(as of 2020-03-23)_
 * Water Jet may be missing some data
 
 ### Power Updates & Fixes
-* Dominator > Martial Assault > Envenomed Blades: Correct power not adding toxic damage to other attacks
-* Pools > Force of Will > Weaken Resolve: Reenable slotting of Accurate ToHit Debuff enhancement sets
 * Scrapper > Titan Weapons > Defensive Sweep: Correct defense bonus to in-game value of 11.25%
 
 ## __Known Issues__
@@ -188,6 +189,8 @@ _(as of 2020-03-23)_
 * Water Jet damage value for Blasters doesn’t match in-game.  
   _→ Will need to investigate calculation differences_
 
-### Can’t/Won’t Fix
+### Won’t Fix
 * ATOs and Superior ATOs are not marked as mutually exclusive.  
   _→ Won't fix. Not related to database, and would require extensive Mids’ code changes to accomplish._
+* Dominator > Martial Assault > Envenomed Blades isn't adding damage to other powers.  
+  _→ Won't fix. The game's expression used to calculate added damage is complex and creates a damage bonus unique to each power based on the base power, recharge time, area factors if those exist, and some other calculations. Expressions are hardcoded into the database when the program is compiled, so we have no way of properly implementing this at this time. While we could go through and apply it to every power individually, that's excessive amounts of work for a relative edge case situation, and thus low priority._
