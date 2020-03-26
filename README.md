@@ -123,14 +123,14 @@ _(as of 2020-03-23)_
 * SR’s original implementation was Scrapper-exclusive and relied on a flat, consistent, non-AT-modified, unenhanceable, unbuffable slope for its values as its passives’ resistances scaled up. When the set/effect was proliferated to other archetypes this slope was maintained with only minor adjustments to the base values.
   * Brute, Scrapper, and Tanker resistance begins building at 60% Max HP, reaching 20% resistance per passive at 0% Max HP
   * Sentinel/Stalker resistance begins building at 60% Max HP, reaching 25% res per passive at 0% Max HP
-  * Arachnos Widow > Teamwork > Foresight resistance begins building at 75% Max HP, reaching 32.25% at 0% Max HP.  
+  * Arachnos Widow > Teamwork > Foresight resistance begins building at 75% Max HP, reaching 32.25% at 0% Max HP  
   _NOTE: Game description states it gives slope resistance to all damage types, but like SR's passives Foresight does not actually include Psionic or Toxic resistance._
 
 ### Pools
-* Moved Cross Punch to the bottom of the list to avoid confusion. One could pretend it required only one power.  
-* Pools > Force of Will > Weaken Resolve: Reenabled slotting of Accurate ToHit Debuff enhancement sets as per in-game Manage Slots UI.  
+* Pools > Fighting > Cross Punch: Reordered power in set to avoid confusion
+* Pools > Force of Will > Weaken Resolve: Reenabled slotting of Accurate ToHit Debuff enhancement sets as per in-game Manage Slots UI  
   → NOTE: If these IO sets cannot actually be slotted in-game, the Homecoming dev team should be informed.
-* Sorcery and Force of Will are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
+* Sorcery and Force of Will are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions  
   _→ KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets._
 
 ### Incarnates
