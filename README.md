@@ -145,8 +145,9 @@ _(as of 2020-03-23)_
 ### New Support Powerset: Electrical Affinity
 * __Label:__ zn_Electrical Affinity  
   _Up to date as of I26p5 Build 4_
-* Currently only implemented for Defenders  
-  _→ KNOWN ISSUE: Mids does not currently appear to be able to display Targeted Absorbs, so Insulating Circuit will show as (Self)._
+  * Currently implemented for Controllers & Defenders  
+    _→ KNOWN ISSUE: Mids does not currently appear to be able to display Targeted Absorbs, so Insulating Circuit will show as (Self)._  
+    _→ KNOWN ISSUE: We do not currently have the full power data and are working from the in-game tooltips, and are using raw numbers instead of values affected by AT-modifiers. As such the numbers may not be 100% accurate at all times. The Homecoming team has been contacted about the possiblility of getting their powers-related files directly._
 
 ### New Origin Power Pool: Experimentation
 * __Label:__ zn_Experimentation  
