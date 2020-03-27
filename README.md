@@ -150,8 +150,8 @@ _(as of 2020-03-23)_
     _→ KNOWN ISSUE: We do not currently have the full power data and are working from the in-game tooltips, and are using raw numbers instead of values affected by AT-modifiers. As such the numbers may not be 100% accurate at all times. The Homecoming team has been contacted about the possiblility of getting their powers-related files directly._
   * Shock cast time has been increased to 12s from 8s
   * Chain distance has been added as radius
-  * MM: Defibrillate enhancements updated  
-    _→ KNOWN ISSUE: Defibrillate on Controller/Corruptor/Defender still needs these corrections._
+  * Mastermind: Defibrillate enhancements updated
+    * Controllers, Corruptors, & Defender Defibrillate enhancements updated to mirror Mastermind
 
 ### New Origin Power Pool: Experimentation
 * __Label:__ zn_Experimentation  
