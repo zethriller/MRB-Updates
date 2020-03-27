@@ -138,6 +138,9 @@ _(as of 2020-03-23)_
 * Enabling a Reactive Interface will no longer debuff the player's resistances
 
 ### IO Sets
+* ATO > Might of the Tanker resistance proc no longer affected by Musculature Alpha
+* ATO > Superior Might of the Tanker resistance proc no longer affected by Musculature Alpha
+* Aegis: Psionic/Status Resistance effect text updated to reflect actual psionic resistance bonus
 * Sudden Acceleration: Knockback to Knockdown 
   * This set will now only affect the power it is slotted in, as in-game.
 
