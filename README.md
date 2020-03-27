@@ -32,7 +32,7 @@ Metalios (Discord: Metalios#2673)
 ---
 
 # 2.6.0.7 I26P4
-_(as of 2020-03-23)_
+_(as of 2020-03-27)_
 
 ## __MRBU Features__
 ### Database Version Number
@@ -49,6 +49,9 @@ _(as of 2020-03-23)_
 ## __General Archetype Updates__
 ### Brute
 * Fiery Aura powers updated to reflect current in-game values
+
+### Sentinel
+* New icon for Beam Rifle primary set
 
 ### Corruptor
 * Most primary specialization powers updated to reflect current in-game values
@@ -176,6 +179,8 @@ _(as of 2020-03-23)_
   _→ KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets._
 
 ### IO Sets
+* Updated Artillery icon for its enhancements as well
+* Fixed the display of multiple procs/specials within the tooltip: Bombardment +FireDmg, Power Transfer +HealSelf, Synapse's Shock +RunSpeed.
 * NEW
   * Artillery (Targeted AoE, Rare, 30-50)
   * Bombardment (Targeted AoE, Rare, 30-50)
