@@ -79,6 +79,7 @@ _(as of 2020-03-27)_
 
 ## __Powers__
 ### Powers Update & Fixes
+* Fixed Twilight Grasp "2 hits" healing on all support ATs
 * The following powers had their scaling resistance bonuses reimplemented:
   * Arachnos Widow > Teamwork > Foresight
   * Brute > Super Reflexes > Agile
@@ -179,6 +180,7 @@ _(as of 2020-03-27)_
   _→ KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets._
 
 ### IO Sets
+* Updated Bombardment icon
 * Updated Artillery icon for its enhancements as well
 * Fixed the display of multiple procs/specials within the tooltip: Bombardment +FireDmg, Power Transfer +HealSelf, Synapse's Shock +RunSpeed.
 * NEW
