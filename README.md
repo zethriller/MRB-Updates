@@ -33,12 +33,28 @@ Metalios (Discord: Metalios#2673)
 ---
 
 ## __To-Do__
+
+### PAGE 5 SPECIFIC
+* Polish pass of Electrical Melee
+* Polish pass of Experimentation
+* The following Scrapper and Stalker Epic Pools still need to be modified  
+  _NOTE: These powersets were shared but now vary in values between Scrapper and Stalker, and so will need to be duplicated and made unique to each_
+  * Leviathan Mastery
+  * Mu Mastery
+  * Soul Mastery
+  * Weapon Mastery
+* Dark Melee damage scales have not yet been applied as the value in Mids differs from the previous value reported in the HC patch notes. These sets will need to be reviewed in full.
+* Dark Miasma/Darkness Affinity for Controller, Corruptor, Mastermind, and others were all mirroring Defender values for certain powers. This is true for Mids as well (Ranged_Ones provide raw values). These need to be changed to the appropriate AT-modifier categories and values reviewed for accuracy.
+
 ### General
 * Snipe powers may be missing data
 * Water Jet may be missing some data
 
 ### Power Updates & Fixes
 * Scrapper > Titan Weapons > Defensive Sweep: Correct defense bonus to in-game value of 11.25%
+
+### Incarnates
+* One or more Lore pet sets appear to be missing (Demons primarily)
 
 ---
 
@@ -55,7 +71,7 @@ Metalios (Discord: Metalios#2673)
 
 ---
 
-# 2.6.0.7 I26P5 (2020-03-31)
+# 2.6.0.7 I26P5 (2020-04-01)
 _(20.2605)_
 
 ## __Powers__
@@ -81,6 +97,24 @@ _We do not currently have the full power data and are working from the in-game t
   * Pools > Leadership > Maneuvers
   * Pools > Leadership > Assault
   * Pools > Leadership > Tactics
+* The following Scrapper and Stalker Epic Pools powers have been modified
+  * Experimentation, Force of Will, and Sorcery are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
+    _→ NOTE: Other epic sets to follow. Due to some scaling changes, these epic pools that Scrapper and Stalker previously shared are needing to be duplicated and made unique to each._
+* All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
+* Stalker > Ice Melee > Ice Patch: This power no longer states that it accepts Universal Damage or Stalker Archetype Origin sets, it has never accepted these enhancements 
+
+### Dark Melee
+* All versions of Shadow Maul
+  * Arc increased from 45 to 120 degrees
+  * Recharge increased from 8 to 11 seconds 
+  * Cast Time lowered from 3.07 to 2.35 seconds
+  * Target Cap increased from 5 (10) to 10 (16) for Brutes, Scrappers, and Stalkers (and Tankers)  
+    _→ TODO: Damage scales have not yet been applied as the value in Mids differs from the previous value reported in the HC patch notes. These sets will need to be reviewed in full._
+
+### Dark Miasma
+* All versions of Twilight Grasp
+  * Accuracy increased from 1.0x to 1.2x  
+    _→ TODO: Dark Miasma/Darkness Affinity for Controller, Corruptor, Mastermind, and others were all mirroring Defender values for certain powers. This is true for Mids as well (Ranged_Ones provide raw values). These need to be changed to the appropriate AT-modifier categories and values reviewed for accuracy._
 
 ### Pools
 * Experimentation, Force of Will, and Sorcery are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
