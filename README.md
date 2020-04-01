@@ -13,7 +13,7 @@ Metalios (Discord: Metalios#2673)
 ---
 
 # Install Instructions
-### Weekly Update
+### Release Update
 * Go to MRBU [Releases](https://github.com/zethriller/MRB-Updates/releases)
 * Click __"Source code (zip)"__ under __"Assets"__ section of most recent Weekly
 * Open downloaded file
@@ -43,20 +43,21 @@ _(as of 2020-03-27)_
   __DB Vers:__ 20.2604
 
 ### Homecoming Beta Server Previews
-* We’re in the process of adding Beta-specific content and changes to Mids’ to allow for analysis and number crunching of Homecoming’s beta changes. These sets may be found by looking for anything beginning with “zn_” (new) or “zc_” (changed), which in the case of powersets will push them to the bottom of their respective lists.
+* We’re in the process of adding Beta-specific content and changes to Mids’ to allow for analysis and number crunching of Homecoming’s beta changes. These sets may be found by looking for anything beginning with "zn_" (new) or "zc_" (changed), which in the case of powersets will push them to the bottom of their respective lists.
 * As the beta server is changing much more frequently than on live, and the beta BIN files are currently difficult to parse to extract raw data, this added content may not always be 100% accurate. We’ll do our best to get them as close as we can!
 
 ## __General Archetype Updates__
 ### Brute
 * Fiery Aura powers updated to reflect current in-game values
 
-### Sentinel
-* New icon for Beam Rifle primary set
-
 ### Corruptor
 * Most primary specialization powers updated to reflect current in-game values
   * Does not include Snipe powers at this time
 * Many Storm Summoning powers updated to reflect current in-game values
+
+### Sentinel
+* New icon for Beam Rifle primary set
+* Reverted icon for Beam Rifle primary set, as this change was not introduced in-game
 
 ### Scrapper / Stalker
 * Fix for Ancillary pool being locked when adding a snipe power
@@ -180,17 +181,16 @@ _(as of 2020-03-27)_
   _→ KNOWN ISSUE: Exclusivity is only shown when attempting to take powers from two sets._
 
 ### IO Sets
-* Updated Bombardment icon
-* Updated Artillery icon for its enhancements as well
-* Fixed the display of multiple procs/specials within the tooltip: Bombardment +FireDmg, Power Transfer +HealSelf, Synapse's Shock +RunSpeed.
 * NEW
   * Artillery (Targeted AoE, Rare, 30-50)
   * Bombardment (Targeted AoE, Rare, 30-50)
   * Preemptive Optimization (Endurance Modification, Uncommon, 21-50)
   * Power Transfer (Endurance Modification, Rare, 21-50)
   * Synapse’s Shock (Endurance Modification, Rare, 21-50)
-* Artillery set icon updated
+* Fixed the display of multiple procs/specials within the tooltip: Bombardment +FireDmg, Power Transfer +HealSelf, Synapse's Shock +RunSpeed.
 * Power Transfer: Chance to Heal Self no longer marked as Unique
+* Updated Artillery enhancements to match new icon
+* Updated Bombardment icon
 
 ## __To-Do__
 ### General
