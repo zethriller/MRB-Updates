@@ -30,9 +30,72 @@ Metalios (Discord: Metalios#2673)
 ---
 ---
 ---
+---
+
+## __To-Do__
+### General
+* Snipe powers may be missing data
+* Water Jet may be missing some data
+
+### Power Updates & Fixes
+* Scrapper > Titan Weapons > Defensive Sweep: Correct defense bonus to in-game value of 11.25%
+
+---
+
+## __Known Issues__
+### Need More Information
+* Water Jet damage value for Blasters doesn’t match in-game.  
+  _→ Will need to investigate calculation differences_
+
+### Won’t Fix
+* ATOs and Superior ATOs are not marked as mutually exclusive.  
+  _→ Won't fix. Not related to database, and would require extensive Mids’ code changes to accomplish._
+* Dominator > Martial Assault > Envenomed Blades isn't adding damage to other powers.  
+  _→ Won't fix. The game's expression used to calculate added damage is complex and creates a damage bonus unique to each power based on the base power, recharge time, area factors if those exist, and some other calculations. Expressions are hardcoded into the database when the program is compiled, so we have no way of properly implementing this at this time. While we could go through and apply it to every power individually, that's excessive amounts of work for a relative edge case situation, and thus low priority._
+
+---
+
+# 2.6.0.7 I26P5 (2020-03-31)
+_(20.2605)_
+
+## __Powers__
+_→ KNOWN ISSUE FOR PAGE 5:_  
+_We do not currently have the full power data and are working from the in-game tooltips, as well as using raw numbers instead of values affected by AT-modifiers. As such some numbers may not be 100% accurate at this time. This will be resolved as the raw data becomes available._
+
+### New Support Powerset: Electrical Affinity
+* Available for Controllers, Corruptors, Defenders, & Masterminds  
+  _→ KNOWN ISSUE: Mids does not currently appear to be able to display Targeted Absorbs, so Insulating Circuit will show as (Self)._  
+
+### New Origin Power Pool: Experimentation
+* Available for all ATs
+
+### New IO Sets
+* Artillery (Targeted AoE, Rare, 30-50)
+* Bombardment (Targeted AoE, Rare, 30-50)
+* Preemptive Optimization (Endurance Modification, Uncommon, 21-50)
+* Power Transfer (Endurance Modification, Rare, 21-50)
+* Synapse’s Shock (Endurance Modification, Rare, 21-50)
+
+### Power Updates & Fixes
+* The following Leadership powers have had their activation time reduced from 3.63 seconds to 1.5 seconds
+  * Pools > Leadership > Maneuvers
+  * Pools > Leadership > Assault
+  * Pools > Leadership > Tactics
+
+### Pools
+* Experimentation, Force of Will, and Sorcery are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
+  _→ KNOWN ISSUE: Exclusivity is currently only shown when attempting to take powers from two sets._
+
+### Enhancements & IOs
+* Call of the Sandman: Chance for Heal
+  * Heal increased from 5% to 15%
+  * This proc is now unique
+
+---
 
 # 2.6.0.7 I26P4
-_(as of 2020-03-27)_
+_(20.2604)_  
+_(Summary as of 2020-03-27)_
 
 ## __MRBU Features__
 ### Database Version Number
@@ -191,22 +254,3 @@ _(as of 2020-03-27)_
 * Power Transfer: Chance to Heal Self no longer marked as Unique
 * Updated Artillery enhancements to match new icon
 * Updated Bombardment icon
-
-## __To-Do__
-### General
-* Snipe powers may be missing data
-* Water Jet may be missing some data
-
-### Power Updates & Fixes
-* Scrapper > Titan Weapons > Defensive Sweep: Correct defense bonus to in-game value of 11.25%
-
-## __Known Issues__
-### Need More Information
-* Water Jet damage value for Blasters doesn’t match in-game.  
-  _→ Will need to investigate calculation differences_
-
-### Won’t Fix
-* ATOs and Superior ATOs are not marked as mutually exclusive.  
-  _→ Won't fix. Not related to database, and would require extensive Mids’ code changes to accomplish._
-* Dominator > Martial Assault > Envenomed Blades isn't adding damage to other powers.  
-  _→ Won't fix. The game's expression used to calculate added damage is complex and creates a damage bonus unique to each power based on the base power, recharge time, area factors if those exist, and some other calculations. Expressions are hardcoded into the database when the program is compiled, so we have no way of properly implementing this at this time. While we could go through and apply it to every power individually, that's excessive amounts of work for a relative edge case situation, and thus low priority._
