@@ -1,5 +1,5 @@
 # Mids' Reborn Unofficial (MRBU)
-### Current MRBU Version: _20.2604_
+### Current MRBU Version: _20.2605_
 
 ___Please note that all unofficial updates are based off of City of Heroes: Homecoming and may not reflect other City of Heroes server implementations.___
 
