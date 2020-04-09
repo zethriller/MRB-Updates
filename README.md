@@ -52,6 +52,7 @@ Metalios (Discord: Metalios#2673)
 
 ### Power Updates & Fixes
 * Scrapper > Titan Weapons > Defensive Sweep: Correct defense bonus to in-game value of 11.25%
+* Pool > Experimentation > Adrenal Booster: This power now accepts ToHit buff enhancements and IO sets.
 
 ### Incarnates
 * One or more Lore pet sets appear to be missing (Demons primarily)
