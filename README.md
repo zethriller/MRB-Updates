@@ -53,6 +53,7 @@ Metalios (Discord: Metalios#2673)
 ### Power Updates & Fixes
 * Scrapper > Titan Weapons > Defensive Sweep: Correct defense bonus to in-game value of 11.25%
 * Pool > Experimentation > Adrenal Booster: This power now accepts ToHit buff enhancements and IO sets.
+* Blasters' Epic Mace Mastery: set up requirements according to what it is ingame: Web Cocoon requires _two_ powers, Summon Spiderlings only requires _one_ . Powers description edited accordingly. Note: the ones in Mids' don't match ingame because they are seriously confusing (bug report sent).
 
 ### Incarnates
 * One or more Lore pet sets appear to be missing (Demons primarily)
