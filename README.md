@@ -87,9 +87,21 @@ Metalios (Discord: Metalios#2673)
 # 2.6.0.7 I26P5 (2020-04-27)
 _(20.2605)_
 
+## __Client__
+### Database Cleanup
+* Deleted two unused, glitchy entries in Pets group
+* All > Titan Weapon: Reorganized power redirects to more closely match their parents
+
+### UI Fixes/Tweaks
+* View Totals window has received some enhancements
+  * Values have had their precision increased to 2 decimal places (#0.##) where appropriate to match in-game Totals
+  * Misc Buffs > Movement > Fly: Calculations are now using base fly speed instead of max fly speed (oops!), and are now much closer to the actual in-game speeds  
+    _→ KNOWN ISSUE: Mids does not currently appear to be able to display Targeted Absorbs, so Insulating Circuit will show as (Self)._  
+
 ## __Powers__
 _→ KNOWN ISSUE FOR PAGE 5:_  
-_We do not currently have the full power data and are working from the in-game tooltips, as well as using raw numbers instead of values affected by AT-modifiers. As such some numbers may not be 100% accurate at this time. This will be resolved as the raw data becomes available._
+_We now have up to date raw data to work with, so expect a sweep across all powers to follow!_  
+~~_We do not currently have the full power data and are working from the in-game tooltips, as well as using raw numbers instead of values affected by AT-modifiers. As such some numbers may not be 100% accurate at this time. This will be resolved as the raw data becomes available._~~
 
 ### New Support Powerset: Electrical Affinity
 * Available for Controllers, Corruptors, Defenders, & Masterminds  
@@ -142,10 +154,6 @@ _We do not currently have the full power data and are working from the in-game t
 * Call of the Sandman: Chance for Heal
   * Heal increased from 5% to 15%
   * This proc is now unique
-
-### Mids Database Cleanup
-* Deleted two unused, glitchy entries in Pets group
-* All > Titan Weapon: Reorganized power redirects to more closely match their parents
 
 ---
 
