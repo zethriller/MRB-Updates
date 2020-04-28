@@ -95,8 +95,8 @@ _(20.2605)_
 ### UI Fixes/Tweaks
 * View Totals window has received some enhancements
   * Values have had their precision increased to 2 decimal places (#0.##) where appropriate to match in-game Totals
-  * Misc Buffs > Movement > Fly: Calculations are now using base fly speed instead of max fly speed (oops!), and are now much closer to the actual in-game speeds  
-    _→ KNOWN ISSUE: Mids does not currently appear to be able to display Targeted Absorbs, so Insulating Circuit will show as (Self)._  
+  * Misc Buffs > Movement > Fly: Calculations are now using BaseFlySpeed instead of MaxFlySpeed (oops!), and are now much closer to the actual in-game speeds  
+    _→ KNOWN ISSUE: These values still do not quite match the in-game speeds due to calculation errors. This is, as far as we can tell, due to the use of negative offsets, which are necessary to properly implement enhancements but disagree with Mids' formulas. We're still working on this._  
 
 ## __Powers__
 _→ KNOWN ISSUE FOR PAGE 5:_  
