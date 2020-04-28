@@ -9,8 +9,6 @@ ___Please note that all unofficial updates are based off of City of Heroes: Home
 Metalios (Discord: Metalios#2673)
 
 ---
----
----
 
 # Install Instructions
 ### Release Update
@@ -28,8 +26,23 @@ Metalios (Discord: Metalios#2673)
   * _For a clean install, only extract the __"Data"__ and __"Images"__ folders_
 
 ---
----
----
+
+## __MRBU Features__
+### Archetype Ordering
+* MRBU currently orders the archetype selection dropdown menu in the same order as Homecoming's in-game list.
+  * This does, however, cause the menu to have minimal organization other than by pre-Going Rogue factions, and may change in the future.  
+
+### Database Version Number
+* As of this Issue/Page number, the Mids database version is going to be formatted to match the year and matching Homecoming Issue/Page number of the last update, in order to make comparing versions at a glance easier for both devs and players.
+  * __Year:__ 2020  
+  __HC Vers:__ Issue 26, Page 4  
+  __DB Date:__ 23/03/2020  
+  __DB Vers:__ 20.2604
+
+### Homecoming Beta Server Previews
+* We’re in the process of adding Beta-specific content and changes to Mids’ to allow for analysis and number crunching of Homecoming’s beta changes. These sets may be found by looking for anything beginning with "zn_" (new) or "zc_" (changed), which in the case of powersets will push them to the bottom of their respective lists.
+* As the beta server is changing much more frequently than on live, and the beta BIN files are currently difficult to parse to extract raw data, this added content may not always be 100% accurate. We’ll do our best to get them as close as we can!
+
 ---
 
 ## __To-Do__
@@ -52,8 +65,6 @@ Metalios (Discord: Metalios#2673)
 
 ### Power Updates & Fixes
 * Scrapper > Titan Weapons > Defensive Sweep: Correct defense bonus to in-game value of 11.25%
-* Pool > Experimentation > Adrenal Booster: This power now accepts ToHit buff enhancements and IO sets.
-* Blasters' Epic Mace Mastery: set up requirements according to what it is ingame: Web Cocoon requires _two_ powers, Summon Spiderlings only requires _one_ . Powers description edited accordingly. Note: the ones in Mids' don't match ingame because they are seriously confusing (bug report sent).
 
 ### Incarnates
 * One or more Lore pet sets appear to be missing (Demons primarily)
@@ -73,7 +84,7 @@ Metalios (Discord: Metalios#2673)
 
 ---
 
-# 2.6.0.7 I26P5 (2020-04-01)
+# 2.6.0.7 I26P5 (2020-04-27)
 _(20.2605)_
 
 ## __Powers__
@@ -95,14 +106,15 @@ _We do not currently have the full power data and are working from the in-game t
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
-* The following Leadership powers have had their activation time reduced from 3.63 seconds to 1.5 seconds
-  * Pools > Leadership > Maneuvers
-  * Pools > Leadership > Assault
-  * Pools > Leadership > Tactics
 * The following Scrapper and Stalker Epic Pools powers have been modified
-  * Experimentation, Force of Will, and Sorcery are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
+  * Mace Mastery > Web Cocoon: This power now does Toxic Damage over time. Now accepts damage enhancements and sets.  
     _→ NOTE: Other epic sets to follow. Due to some scaling changes, these epic pools that Scrapper and Stalker previously shared are needing to be duplicated and made unique to each._
 * All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
+* Blaster > Epic > Mace Mastery: Power requirements updated to match in-game, descriptions updated to this functionality.  
+  _→ NOTE: These requirements do not match the other epic sets. This has been reported to the Homecoming team._
+  * Summon Spiderlings requires one power
+  * Web Cocoon requires two powers
+* Pool > Experimentation > Adrenal Booster: This power now accepts ToHit buff enhancements and IO sets.
 * Stalker > Ice Melee > Ice Patch: This power no longer states that it accepts Universal Damage or Stalker Archetype Origin sets, it has never accepted these enhancements 
 
 ### Dark Melee
@@ -119,6 +131,10 @@ _We do not currently have the full power data and are working from the in-game t
     _→ TODO: Dark Miasma/Darkness Affinity for Controller, Corruptor, Mastermind, and others were all mirroring Defender values for certain powers. This is true for Mids as well (Ranged_Ones provide raw values). These need to be changed to the appropriate AT-modifier categories and values reviewed for accuracy._
 
 ### Pools
+* The following Leadership powers have had their activation time reduced from 3.63 seconds to 1.5 seconds
+  * Pools > Leadership > Maneuvers
+  * Pools > Leadership > Assault
+  * Pools > Leadership > Tactics
 * Experimentation, Force of Will, and Sorcery are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
   _→ KNOWN ISSUE: Exclusivity is currently only shown when attempting to take powers from two sets._
 
@@ -132,18 +148,6 @@ _We do not currently have the full power data and are working from the in-game t
 # 2.6.0.7 I26P4
 _(20.2604)_  
 _(Summary as of 2020-03-27)_
-
-## __MRBU Features__
-### Database Version Number
-* As of this Issue/Page number, the Mids database version is going to be formatted to match the year and matching Homecoming Issue/Page number of the last update, in order to make comparing versions at a glance easier for both devs and players.
-  * __Year:__ 2020  
-  __HC Vers:__ Issue 26, Page 4  
-  __DB Date:__ 23/03/2020  
-  __DB Vers:__ 20.2604
-
-### Homecoming Beta Server Previews
-* We’re in the process of adding Beta-specific content and changes to Mids’ to allow for analysis and number crunching of Homecoming’s beta changes. These sets may be found by looking for anything beginning with "zn_" (new) or "zc_" (changed), which in the case of powersets will push them to the bottom of their respective lists.
-* As the beta server is changing much more frequently than on live, and the beta BIN files are currently difficult to parse to extract raw data, this added content may not always be 100% accurate. We’ll do our best to get them as close as we can!
 
 ## __General Archetype Updates__
 ### Brute
