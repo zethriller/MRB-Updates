@@ -143,6 +143,10 @@ _We do not currently have the full power data and are working from the in-game t
   * Heal increased from 5% to 15%
   * This proc is now unique
 
+### Mids Database Cleanup
+* Deleted two unused, glitchy entries in Pets group
+* All > Titan Weapon: Reorganized power redirects to more closely match their parents
+
 ---
 
 # 2.6.0.7 I26P4
