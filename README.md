@@ -84,7 +84,7 @@ Metalios (Discord: Metalios#2673)
 
 ---
 
-# 2.6.0.7 I26P5 (2020-04-27)
+# 2.6.0.7 I26P5 (2020-04-28)
 _(20.2605)_
 
 ## __Client__
@@ -122,6 +122,7 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
   * Mace Mastery > Web Cocoon: This power now does Toxic Damage over time. Now accepts damage enhancements and sets.  
     _→ NOTE: Other epic sets to follow. Due to some scaling changes, these epic pools that Scrapper and Stalker previously shared are needing to be duplicated and made unique to each._
 * All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
+* All valid ATs > Martial Arts > Crippling Axe Kick: This power now accepts Defense Debuff enhancements and sets, matching in-game functionality
 * Blaster > Epic > Mace Mastery: Power requirements updated to match in-game, descriptions updated to this functionality.  
   _→ NOTE: These requirements do not match the other epic sets. This has been reported to the Homecoming team._
   * Summon Spiderlings requires one power
