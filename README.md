@@ -118,6 +118,10 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
+* Changed description and removed Bruiser (-Res effect) for Tanker attacks: Mercurial Blow, Stone Fist, Initial Strike, Jab, Defensive Sweep, Bash
+* Sentinel > Beam Rifle > Overload: fixed DoT component value, added missing damage sub-component in PvE
+* Changed Oppressive Gloom, Cloak of Fear and Burn for Tankers and Brutes to accept Taunt enhancement but not Taunt sets.
+* Fixed shape of all Tanker Single Target Attacks. Basically setting them as Character area (from Sphere), radius and max targets to 0
 * The following Scrapper and Stalker Epic Pools powers have been modified
   * Mace Mastery > Web Cocoon: This power now does Toxic Damage over time. Now accepts damage enhancements and sets.  
     _→ NOTE: Other epic sets to follow. Due to some scaling changes, these epic pools that Scrapper and Stalker previously shared are needing to be duplicated and made unique to each._
@@ -152,6 +156,7 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
   _→ KNOWN ISSUE: Exclusivity is currently only shown when attempting to take powers from two sets._
 
 ### Enhancements & IOs
+* Shortened enhancements' names in Will of the Controller, Ascendency of the Dominator, Overpowering Presence, Dominating Grasp and their Superior versions to match ingame ones. E.g. _Accuracy/Control Duration_.
 * Call of the Sandman: Chance for Heal
   * Heal increased from 5% to 15%
   * This proc is now unique
