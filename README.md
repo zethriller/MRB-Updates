@@ -6,6 +6,7 @@ ___Please note that all unofficial updates are based off of City of Heroes: Home
 @Zed (Discord: Zed#7901)  
 @Felis Noctu (Discord: Feles Noctis#9086)  
 @Procat (Discord: Procat#3599)  
+Bopper (Discord: Bopper#1892)  
 Metalios (Discord: Metalios#2673)
 
 ---
@@ -118,6 +119,7 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
+* Pool > Force of Will > Weaken Resolve: Adjusted values, description no longer claims it provides self +ToHit. Also, power is no longer a click-buff.
 * Changed description and removed Bruiser (-Res effect) for Tanker attacks: Mercurial Blow, Stone Fist, Initial Strike, Jab, Defensive Sweep, Bash
 * Sentinel > Beam Rifle > Overload: fixed DoT component value, added missing damage sub-component in PvE
 * Changed Oppressive Gloom, Cloak of Fear and Burn for Tankers and Brutes to accept Taunt enhancement but not Taunt sets.
