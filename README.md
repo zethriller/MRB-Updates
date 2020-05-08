@@ -6,7 +6,7 @@ ___Please note that all unofficial updates are based off of City of Heroes: Home
 @Zed (Discord: Zed#7901)  
 @Felis Noctu (Discord: Feles Noctis#9086)  
 @Procat (Discord: Procat#3599)  
-Bopper (Discord: Bopper#1892)  
+@Bopper (Discord: Bopper#1892)  
 Metalios (Discord: Metalios#2673)
 
 ---
@@ -94,6 +94,7 @@ _(20.2605)_
 * All > Titan Weapon: Reorganized power redirects to more closely match their parents
 
 ### UI Fixes/Tweaks
+* Database editor: Updated Sentinel icon (for enhancements sets)
 * View Totals window has received some enhancements
   * Values have had their precision increased to 2 decimal places (#0.##) where appropriate to match in-game Totals
   * Misc Buffs > Movement > Fly: Calculations are now using BaseFlySpeed instead of MaxFlySpeed (oops!), and are now much closer to the actual in-game speeds  
@@ -119,6 +120,10 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
+* Epic > Sentinel Psi Mastery > Mind Probe: not longer accept blaster sets
+* Epic > Sentinel Leviathan Mastery > Knockout Blow: no longer accept ranged aoe sets
+* Epic > Sentinel Ninja Mastery > Paralizing dart: name typo
+* Epic > Sentinel Ninja Mastery: Tashibishi, Sting of the Wasp, Paralyzing dart, The Lotus Drops no longer accept untyped sets
 * Pool > Force of Will > Weaken Resolve: Adjusted values, description no longer claims it provides self +ToHit. Also, power is no longer a click-buff.
 * Changed description and removed Bruiser (-Res effect) for Tanker attacks: Mercurial Blow, Stone Fist, Initial Strike, Jab, Defensive Sweep, Bash
 * Sentinel > Beam Rifle > Overload: fixed DoT component value, added missing damage sub-component in PvE
