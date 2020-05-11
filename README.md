@@ -85,7 +85,7 @@ Metalios (Discord: Metalios#2673)
 
 ---
 
-# 2.6.0.7 I26P5 (2020-04-28)
+# 2.6.0.7 I26P5 (2020-05-11)
 _(20.2605)_
 
 ## __Client__
@@ -115,43 +115,53 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 ### New IO Sets
 * Artillery (Targeted AoE, Rare, 30-50)
 * Bombardment (Targeted AoE, Rare, 30-50)
-* Preemptive Optimization (Endurance Modification, Uncommon, 21-50)
 * Power Transfer (Endurance Modification, Rare, 21-50)
+* Preemptive Optimization (Endurance Modification, Uncommon, 21-50)
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
-* Tanker > Super Reflexes > Evasion: taunt won't affect target and self anymore
-* Stalker > Radiation Armor > Fallout Shelter: available level fixed
-* Blaster > Electricity Manipulation > Force of Thunder: debuff won't affect target and self anymore, added toggle button
-* Brute > Martial Arts: swapping level selectability for Focus Chi and Warrior's Provocation
-* Brute > Bio Armor > DNA Siphon: added missing toggle button
-* Arachnos Widow > Teamwork > Mind Link (both versions): adjusted defense buff values
-* Epic > Sentinel Psi Mastery > Mind Probe: not longer accept blaster sets
-* Epic > Sentinel Leviathan Mastery > Knockout Blow: no longer accept ranged aoe sets
-* Epic > Sentinel Ninja Mastery > Paralizing dart: name typo
-* Epic > Sentinel Ninja Mastery: Tashibishi, Sting of the Wasp, Paralyzing dart, The Lotus Drops no longer accept untyped sets
-* Pool > Force of Will > Weaken Resolve: Adjusted values, description no longer claims it provides self +ToHit. Also, power is no longer a click-buff.
-* Changed description and removed Bruiser (-Res effect) for Tanker attacks: Mercurial Blow, Stone Fist, Initial Strike, Jab, Defensive Sweep, Bash
-* Sentinel > Beam Rifle > Overload: fixed DoT component value, added missing damage sub-component in PvE
-* Changed Oppressive Gloom, Cloak of Fear and Burn for Tankers and Brutes to accept Taunt enhancement but not Taunt sets.
+* All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
+* All valid ATs > Martial Arts > Crippling Axe Kick: This power now accepts Defense Debuff enhancements and sets, matching in-game functionality.
+* The following Brute and Tanker powers have been modified to accept Taunt enhancements but not Taunt sets:
+  * Burn
+  * Cloak of Fear
+  * Oppressive Gloom
 * Fixed shape of all Tanker Single Target Attacks. Basically setting them as Character area (from Sphere), radius and max targets to 0
 * The following Scrapper and Stalker Epic Pools powers have been modified
   * Mace Mastery > Web Cocoon: This power now does Toxic Damage over time. Now accepts damage enhancements and sets.  
     _→ NOTE: Other epic sets to follow. Due to some scaling changes, these epic pools that Scrapper and Stalker previously shared are needing to be duplicated and made unique to each._
-* All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
-* All valid ATs > Martial Arts > Crippling Axe Kick: This power now accepts Defense Debuff enhancements and sets, matching in-game functionality
+* Arachnos Widow > Teamwork > Mind Link (both versions): Defense buff values adjusted
+* Blaster > Electricity Manipulation > Force of Thunder: Debuff no longer affects both target and self, added toggle button
 * Blaster > Epic > Mace Mastery: Power requirements updated to match in-game, descriptions updated to this functionality.  
   _→ NOTE: These requirements do not match the other epic sets. This has been reported to the Homecoming team._
   * Summon Spiderlings requires one power
   * Web Cocoon requires two powers
+* Brute > Bio Armor > DNA Siphon: Added missing toggle button
+* Brute > Martial Arts: Swapped level selectability for Focus Chi and Warrior's Provocation
 * Pool > Experimentation > Adrenal Booster: This power now accepts ToHit buff enhancements and IO sets.
-* Stalker > Ice Melee > Ice Patch: This power no longer states that it accepts Universal Damage or Stalker Archetype Origin sets, it has never accepted these enhancements 
+* Pool > Force of Will > Weaken Resolve: Adjusted values, description no longer claims it provides self +ToHit. Also, power is no longer a click-buff.
+* Sentinel > Beam Rifle > Overload: Fixed DoT component value, added missing damage sub-component in PvE
+* Sentinel > Epic > Leviathan Mastery > Knockout Blow: No longer accepts ranged aoe sets
+* Sentinel > Epic > Ninja Tool Mastery > Paralizing Dart: Name typo, corrected to "Paralyzing"
+* Sentinel > Epic > Ninja Tool Mastery > Paralyzing Dart/Sting of the Wasp/Tashibishi/The Lotus Drops: no longer accept untyped sets
+* Sentinel > Epic > Psi Mastery > Mind Probe: No longer accept blaster sets
+* Stalker > Ice Melee > Ice Patch: This power no longer states that it accepts Universal Damage or Stalker Archetype Origin sets, it has never accepted these enhancements.
+* Stalker > Radiation Armor > Fallout Shelter: Available level fixed
+* Tanker > Bruiser: Changed description and removed Bruiser (-Res effect) for the following Tanker attacks:
+  * Bash
+  * Defensive Sweep
+  * Initial Strike
+  * Jab
+  * Mercurial Blow
+  * Stone Fist
+* Tanker > Single Target Attacks: Corrected shape. Gauntlet taunt was applied as AoE, which caused proc/PPM calculations to return incorrect values
+* Tanker > Super Reflexes > Evasion: Taunt no longer affects both target and self
 
 ### Dark Melee
 * All versions of Shadow Maul
   * Arc increased from 45 to 120 degrees
-  * Recharge increased from 8 to 11 seconds 
   * Cast Time lowered from 3.07 to 2.35 seconds
+  * Recharge increased from 8 to 11 seconds 
   * Target Cap increased from 5 (10) to 10 (16) for Brutes, Scrappers, and Stalkers (and Tankers)  
     _→ TODO: Damage scales have not yet been applied as the value in Mids differs from the previous value reported in the HC patch notes. These sets will need to be reviewed in full._
 
