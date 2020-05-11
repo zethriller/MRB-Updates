@@ -120,6 +120,9 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
+* Tanker > Super Reflexes > Evasion: taunt won't affect target and self anymore
+* Stalker > Radiation Armor > Fallout Shelter: available level fixed
+* Blaster > Electricity Manipulation > Force of Thunder: debuff won't affect target and self anymore, added toggle button
 * Brute > Martial Arts: swapping level selectability for Focus Chi and Warrior's Provocation
 * Brute > Bio Armor > DNA Siphon: added missing toggle button
 * Arachnos Widow > Teamwork > Mind Link (both versions): adjusted defense buff values
