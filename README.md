@@ -178,6 +178,15 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Experimentation, Force of Will, and Sorcery are now mutually exclusive. In addition to a visual clue, there is a note about it in the powersets' descriptions.  
   _→ KNOWN ISSUE: Exclusivity is currently only shown when attempting to take powers from two sets._
 
+### Savage Melee
+* All valid ATs > Blood Frenzy:
+  * Now properly allows scaling of endurance discount and recharge bonuses
+  * Description updated to match in-game
+* Stalker > Hemorrhage: Proof of concept for providing modal changing effects utilizing special cases
+  * 0-4 stacks on power directly
+  * 5 stacks uses power redirect, activate with Quick Form (this is due to the DoTs adding +1sec & tick at 5 stacks)
+  * Description modified to note this new functionality
+
 ### Enhancements & IOs
 * Shortened enhancements' names in Will of the Controller, Ascendency of the Dominator, Overpowering Presence, Dominating Grasp and their Superior versions to match ingame ones. E.g. _Accuracy/Control Duration_.
 * Call of the Sandman: Chance for Heal
