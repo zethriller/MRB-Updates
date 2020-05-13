@@ -120,6 +120,7 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
+* Arachnos Widow / Arachnos Soldier > Tactical Training Assault: turned taunt/placate protection into resistance
 * All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
 * All valid ATs > Martial Arts > Crippling Axe Kick: This power now accepts Defense Debuff enhancements and sets, matching in-game functionality.
 * The following Brute and Tanker powers have been modified to accept Taunt enhancements but not Taunt sets:
