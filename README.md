@@ -120,6 +120,7 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
+* All valid ATs > Dual Pistols > Hail of Bullets: Cast time has been standardized to 4.17s
 * All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
 * All valid ATs > Martial Arts > Crippling Axe Kick: This power now accepts Defense Debuff enhancements and sets, matching in-game functionality.
 * The following Brute and Tanker powers have been modified to accept Taunt enhancements but not Taunt sets:
@@ -149,7 +150,7 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Sentinel > Epic > Psi Mastery > Mind Probe: No longer accept blaster sets
 * Stalker > Ice Melee > Ice Patch: This power no longer states that it accepts Universal Damage or Stalker Archetype Origin sets, it has never accepted these enhancements.
 * Stalker > Radiation Armor > Fallout Shelter: Available level fixed
-* Tanker > Bruiser: Changed description and removed Bruiser (-Res effect) for the following Tanker attacks:
+* Tanker > Bruising: Changed description and removed Bruising (-Res effect) for the following Tanker attacks:
   * Bash
   * Defensive Sweep
   * Initial Strike
@@ -157,6 +158,7 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
   * Mercurial Blow
   * Stone Fist
 * Tanker > Single Target Attacks: Corrected shape. Gauntlet taunt was applied as AoE, which caused proc/PPM calculations to return incorrect values
+* Tanker > Dark Melee > Siphon Life: Corrected power scale on self-heal effect
 * Tanker > Super Reflexes > Evasion: Taunt no longer affects both target and self
 
 ### Dark Melee
