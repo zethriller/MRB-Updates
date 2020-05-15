@@ -120,7 +120,6 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * Synapse’s Shock (Endurance Modification, Rare, 21-50)
 
 ### Power Updates & Fixes
-* Arachnos Widow / Arachnos Soldier > Tactical Training Assault: turned taunt/placate protection into resistance
 * All valid ATs > Invulnerability > Unstoppable: This power no longer accepts Endurance Mod enhancements or sets. The Recovery buff in this power has never been enhanceable
 * All valid ATs > Martial Arts > Crippling Axe Kick: This power now accepts Defense Debuff enhancements and sets, matching in-game functionality.
 * The following Brute and Tanker powers have been modified to accept Taunt enhancements but not Taunt sets:
@@ -131,6 +130,8 @@ _We now have up to date raw data to work with, so expect a sweep across all powe
 * The following Scrapper and Stalker Epic Pools powers have been modified
   * Mace Mastery > Web Cocoon: This power now does Toxic Damage over time. Now accepts damage enhancements and sets.  
     _→ NOTE: Other epic sets to follow. Due to some scaling changes, these epic pools that Scrapper and Stalker previously shared are needing to be duplicated and made unique to each._
+* Arachnos Soldier > Tactical Training Assault: Taunt/placate protection has been changed to resistance
+* Arachnos Widow > Tactical Training Assault: Taunt/placate protection has been changed to resistance
 * Arachnos Widow > Teamwork > Mind Link (both versions): Defense buff values adjusted
 * Blaster > Electricity Manipulation > Force of Thunder: Debuff no longer affects both target and self, added toggle button
 * Blaster > Epic > Mace Mastery: Power requirements updated to match in-game, descriptions updated to this functionality.  
